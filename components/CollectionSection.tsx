@@ -15,11 +15,11 @@ export function CollectionSection({
 }: Props) {
   return (
     <Reveal>
-      <section className="py-40 bg-white">
+      <section className="py-1 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-10">
           <div
             className={`
-              grid lg:grid-cols-2 gap-20 items-center
+              grid lg:grid-cols-2 gap-17 items-center
               ${reverse ? "lg:flex-row-reverse" : ""}
             `}
           >
