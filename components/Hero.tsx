@@ -1,30 +1,36 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
-      
-      <div className="relative z-10 text-center px-8">
+    <section className="min-h-[180vh] relative bg-white">
 
-        <h1 className="text-6xl md:text-7xl font-serif leading-none mb-8">
-          Wood that<br />
-          tells stories.
-        </h1>
+  <div className="sticky top-0 min-h-screen flex flex-col items-center">
 
-        <p className="text-xl text-neutral-600 max-w-lg mx-auto leading-relaxed">
-          Inspired by history, cultures and nature. Each piece is handcrafted with care, patience and respect for the material.
-        </p>
+    <div className="pt-32 text-center px-8 z-10">
+      <h1 className="text-6xl md:text-7xl font-serif leading-none mb-8">
+        Wood that
+        <br />
+        tells stories.
+      </h1>
 
-      </div>
+      <p className="text-xl text-neutral-700 max-w-lg mx-auto">
+        Inspired by history, cultures and nature. Each piece is handcrafted with care, patience and respect for the material.
+      </p>
+    </div>
 
-      <div className="absolute inset-0 flex items-center justify-center">
-        <div className="w-[700px] h-[700px] rounded-full bg-neutral-200 opacity-40 flex items-center justify-center">
-          
-          <span className="text-neutral-400 text-sm tracking-widest uppercase">
-            Tree symbol
-          </span>
+    <div className="relative w-full flex justify-center mt-5">
+      <Image
+        src="/hero.png"
+        alt="Tree"
+        width={700}
+        height={1400}
+        className="object-contain"
+        priority
+      />
+    </div>
 
-        </div>
-      </div>
+  </div>
 
-    </section>
+</section>
   );
-} 
+}

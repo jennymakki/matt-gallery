@@ -8,40 +8,61 @@ export default function Page() {
     <main>
       <Hero />
 
-      <CollectionSection
-        title="Jewellery"
-        description="Small objects with deep meaning."
-        image="/jewellery.jpg"
-      />
+      <section className="pt-32 bg-10 bg-white text-center">
+        <div className="max-w-3xl mx-auto px-6">
+          <h2 className="text-6xl md:text-7xl font-serif leading-none mb-8">
+            A curated world of handcrafted stories
+          </h2>
+
+          <p className="text-xl text-neutral-700 max-w-lg mx-auto">
+            {" "}
+            Each collection explores material, culture and form — from ancient
+            symbolism to modern craft.
+          </p>
+        </div>
+      </section>
 
       <CollectionSection
-        title="Viking"
-        description="Nordic forms and ancient traditions."
-        image="/viking.jpg"
-        reverse
+        title="Artifacts"
+        description="Handcrafted objects exploring play, ritual and form."
+        image="/chess.png"
       />
 
       <CollectionSection
         title="Asia"
         description="Inspired by Asian design and symbolism."
-        image="/asia.jpg"
+        image="/asia.png"
+        reverse
       />
 
       <CollectionSection
         title="Congo"
         description="Patterns and stories from Central Africa."
-        image="/congo.jpg"
+        image="/congo.png"
+      />
+
+      <CollectionSection
+        title="Jewellery"
+        description="Small objects with deep meaning."
+        image="/jewellery.png"
         reverse
       />
 
       <CollectionSection
-        title="Chess"
-        description="A handcrafted chess set where every piece is unique."
-        image="/chess.jpg"
+        title="Upcycled"
+        description="Handcrafted objects created from carefully selected wood offcuts, giving each piece a second life."
+        image="/upcycled.png"
       />
 
-      <About/>
-      <Footer/>
+      <CollectionSection
+        title="Viking"
+        description="Nordic forms and ancient traditions."
+        image="/viking.png"
+        reverse
+      />
+
+      <About />
+      <Footer />
     </main>
   );
 }
