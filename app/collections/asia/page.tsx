@@ -19,6 +19,89 @@ export default function asiaPage() {
         </div>
       </section>
 
+      <section className="py-20 bg-white">
+        <div className="max-w-xl mx-auto px-6">
+          <img
+            src="/bowl.png"
+            alt="Handcrafted wooden bowl in birch and walnut"
+            className="w-full object-contain"
+          />
+        </div>
+      </section>
+
+      <section className="pb-32 pt-0">
+        <div className="max-w-2xl mx-auto text-center">
+          <h2 className="text-5xl font-serif mb-8">Birch Bowl</h2>
+
+          <p className="text-lg px-10 text-neutral-600 leading-relaxed">
+            Crafted from laminated layers of birch and walnut, this bowl is
+            shaped on the lathe into a single continuous form where the
+            materials become part of the same movement.
+          </p>
+
+          <p className="text-lg px-10 text-neutral-600 leading-relaxed mt-8">
+            A thin contrasting line traces the meeting of the woods — a quiet
+            detail that reveals the structure of its making and the rhythm of
+            the craft.
+          </p>
+        </div>
+      </section>
+
+      <section className="py-20 bg-white">
+        <div className="max-w-xl mx-auto px-6">
+          <img
+            src="/cup.png"
+            alt="Handcrafted birch cup with engraved pattern"
+            className="w-full object-contain"
+          />
+        </div>
+      </section>
+
+      <section className="pb-32 pt-0">
+        <div className="max-w-2xl mx-auto text-center">
+          <h2 className="text-5xl font-serif mb-8">Birch Cup</h2>
+
+          <p className="text-lg px-10 text-neutral-600 leading-relaxed">
+            Crafted from solid birch, this cup is wrapped in a continuous
+            engraved pattern that encircles its surface like fractured glass in
+            motion.
+          </p>
+
+          <p className="text-lg px-10 text-neutral-600 leading-relaxed mt-8">
+            The carving catches light and shadow as it moves, turning an
+            everyday vessel into a quiet study of texture, rhythm and
+            reflection.
+          </p>
+        </div>
+      </section>
+
+      <section className="py-24 bg-white">
+        <div className="max-w-2xl mx-auto px-6">
+          <img
+            src="/sword.png"
+            alt="Handcrafted wooden sword with walnut handle and birch blade"
+            className="w-full object-contain"
+          />
+        </div>
+      </section>
+
+      <section className="pb-32 pt-0">
+        <div className="max-w-2xl mx-auto text-center">
+          <h2 className="text-5xl font-serif mb-8">Walnut & Birch Sword</h2>
+
+          <p className="text-lg px-10 text-neutral-600 leading-relaxed">
+            Crafted with a birch handle and a walnut blade, this piece explores
+            the contrast between weight and lightness, control and movement.
+          </p>
+
+          <p className="text-lg px-10 text-neutral-600 leading-relaxed mt-8">
+            The handle is finely tapered and almost delicate in form, while the
+            blade carries subtle carved details that shift with the light —
+            turning the object into a study of precision and restraint.
+          </p>
+        </div>
+      </section>
+
       <section className="py-10 bg-white">
         <div className="max-w-4xl mx-auto px-6">
           <img

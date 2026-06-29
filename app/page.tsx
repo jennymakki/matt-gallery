@@ -68,7 +68,6 @@ export default function Page() {
       />
 
       <About />
-      <Footer />
     </main>
   );
 }
