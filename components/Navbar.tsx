@@ -56,22 +56,22 @@ export function Navbar() {
           </Link>
 
           <nav className="hidden md:flex gap-8 text-sm tracking-wide text-neutral-700">
-            <a href="#artifacts" className="hover:text-black transition">
+            <a href="/collections/artifacts" className="hover:text-black transition">
               Artifacts
             </a>
-            <a href="#asia" className="hover:text-black transition">
+            <a href="/collections/asia" className="hover:text-black transition">
               Asia
             </a>
-            <a href="#congo" className="hover:text-black transition">
+            <a href="/collections/congo" className="hover:text-black transition">
               Congo
             </a>
-            <a href="#jewellery" className="hover:text-black transition">
+            <a href="/collections/jewellery" className="hover:text-black transition">
               Jewellery
             </a>
-            <a href="#upcycled" className="hover:text-black transition">
+            <a href="/collections/upcycled" className="hover:text-black transition">
               Upcycled
             </a>
-            <a href="#viking" className="hover:text-black transition">
+            <a href="/collections/viking" className="hover:text-black transition">
               Viking
             </a>
           </nav>
@@ -100,22 +100,22 @@ export function Navbar() {
         </button>
 
         <nav className="flex flex-col items-center gap-8 text-2xl font-serif">
-          <a onClick={() => setOpen(false)} href="#artifacts">
+          <a onClick={() => setOpen(false)} href="/collections/artifacts">
             Artifacts
           </a>
-          <a onClick={() => setOpen(false)} href="#asia">
+          <a onClick={() => setOpen(false)} href="/collections/asia">
             Asia
           </a>
-          <a onClick={() => setOpen(false)} href="#congo">
+          <a onClick={() => setOpen(false)} href="/collections/congo">
             Congo
           </a>
-          <a onClick={() => setOpen(false)} href="#jewellery">
+          <a onClick={() => setOpen(false)} href="/collections/jewellery">
             Jewellery
           </a>
-          <a onClick={() => setOpen(false)} href="#upcycled">
+          <a onClick={() => setOpen(false)} href="/collections/upcycled">
             Upcycled
           </a>
-          <a onClick={() => setOpen(false)} href="#viking">
+          <a onClick={() => setOpen(false)} href="/collections/viking">
             Viking
           </a>
         </nav>
