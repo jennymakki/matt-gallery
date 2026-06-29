@@ -26,12 +26,14 @@ export default function Page() {
         title="Artifacts"
         description="Handcrafted objects exploring play, ritual and form."
         image="/chess.png"
+        href="/collections/artifacts"
       />
 
       <CollectionSection
         title="Asia"
         description="Inspired by Asian design and symbolism."
         image="/asia.png"
+        href="/collections/asia"
         reverse
       />
 
@@ -39,12 +41,14 @@ export default function Page() {
         title="Congo"
         description="Patterns and stories from Central Africa."
         image="/congo.png"
+        href="/collections/congo"
       />
 
       <CollectionSection
         title="Jewellery"
         description="Small objects with deep meaning."
         image="/jewellery.png"
+        href="/collections/jewellery"
         reverse
       />
 
@@ -52,12 +56,14 @@ export default function Page() {
         title="Upcycled"
         description="Handcrafted objects created from carefully selected wood offcuts, giving each piece a second life."
         image="/upcycled.png"
+        href="/collections/upcycled"
       />
 
       <CollectionSection
         title="Viking"
         description="Nordic forms and ancient traditions."
         image="/viking.png"
+        href="/collections/viking"
         reverse
       />
 
