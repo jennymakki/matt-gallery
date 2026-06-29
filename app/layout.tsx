@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
 import { Cormorant_Garamond, Inter } from "next/font/google";
 
 export const serif = Cormorant_Garamond({
@@ -29,6 +30,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <Navbar />
         {children}
+        <Footer/>
       </body>
     </html>
   );
