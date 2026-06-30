@@ -7,7 +7,7 @@ export default function jewelleryPage() {
             Jewellery
           </p>
 
-          <h2 className="text-6xl font-serif mb-10">
+          <h2 className="text-5xl font-serif mb-10">
             Objects worn close to the body.
           </h2>
 
@@ -149,6 +149,22 @@ export default function jewelleryPage() {
             Each ring is shaped and finished by hand, preserving the natural
             grain of the wood while reducing the form to its simplest possible
             expression.
+          </p>
+        </div>
+      </section>
+      <section className="pt-10 pb-40 bg-white">
+        <div className="max-w-2xl mx-auto text-center px-6">
+          <p className="uppercase tracking-[0.3em] text-xs text-neutral-400 mb-6">
+            Philosophy
+          </p>
+
+          <h2 className="text-5xl font-serif mb-8">Crafted to be worn.</h2>
+
+          <p className="text-lg text-neutral-600 leading-relaxed">
+            Jewellery becomes part of the person who wears it. Shaped from
+            natural wood and finished by hand, each piece is designed to age
+            gracefully, gathering character through touch, movement and the
+            moments it quietly accompanies.
           </p>
         </div>
       </section>

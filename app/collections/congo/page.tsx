@@ -7,7 +7,7 @@ export default function congoPage() {
             Congo
           </p>
 
-          <h2 className="text-6xl font-serif mb-10">
+          <h2 className="text-5xl font-serif mb-10">
             Objects shaped by story, rhythm and tradition.
           </h2>
 
@@ -34,15 +34,17 @@ export default function congoPage() {
           <h2 className="text-5xl font-serif mb-8">Wooden Spoons</h2>
 
           <p className="text-lg px-10 text-neutral-600 leading-relaxed">
-            Handcrafted from two contrasting hardwoods, these spoons bring
-            together warm natural tones in a balanced and timeless composition.
+            Handcrafted from solid birch, these spoons are decorated with
+            stylized painted figures inspired by traditional Central African
+            visual expression. The handles are carefully coloured with
+            watercolor, allowing the natural grain of the wood to remain visible
+            beneath the artwork.
           </p>
 
           <p className="text-lg px-10 text-neutral-600 leading-relaxed mt-8">
-            Stylized engraved figures dance across each handle, inspired by
-            traditional wall paintings and expressive forms passed down through
-            generations. Every carved line adds movement, rhythm and character
-            to the wood.
+            Each spoon balances function with storytelling, transforming an
+            everyday utensil into an object where carving, painting and
+            craftsmanship come together in quiet harmony.
           </p>
         </div>
       </section>
@@ -59,74 +61,98 @@ export default function congoPage() {
 
       <section className="pb-32 pt-0">
         <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-5xl font-serif mb-8">Kongo Huts</h2>
+          <h2 className="text-5xl px-3 font-serif mb-8">Birch Shrink Boxes</h2>
 
           <p className="text-lg px-10 text-neutral-600 leading-relaxed">
-            Three small wooden huts crafted as functional vessels, each formed
-            from a warm reddish hardwood with contrasting light wooden lids.
+            Crafted from freshly cut birch, each container is hollowed while the
+            wood is still green. A dry wooden base is then fitted into the
+            bottom before the birch slowly dries and naturally shrinks around
+            it, locking the construction together without the need for
+            mechanical fasteners.
           </p>
 
           <p className="text-lg px-10 text-neutral-600 leading-relaxed mt-8">
-            The surfaces are engraved with stylized figures moving in rhythm —
-            dancing, drumming and circling the structures as if the huts
-            themselves are part of a shared ritual space.
+            This traditional method allows the changing properties of the wood
+            itself to become part of the making process, creating functional
+            vessels that celebrate both craftsmanship and the living character
+            of the material.
           </p>
         </div>
       </section>
 
       <section className="py-20 bg-white">
-  <div className="max-w-lg mx-auto px-6">
-    <img
-      src="/board.png"
-      alt="Handcrafted wooden cutting board in red wood"
-      className="w-full object-contain"
-    />
-  </div>
-</section>
-<section className="pb-32 pt-0">
-  <div className="max-w-2xl mx-auto text-center">
-    <h2 className="text-5xl font-serif mb-8">Hanging Board</h2>
+        <div className="max-w-lg mx-auto px-6">
+          <img
+            src="/board.png"
+            alt="Handcrafted wooden cutting board in red wood"
+            className="w-full object-contain"
+          />
+        </div>
+      </section>
+      <section className="pb-32 pt-0">
+        <div className="max-w-2xl mx-auto text-center">
+          <h2 className="text-5xl font-serif mb-8">Hanging Board</h2>
 
-    <p className="text-lg px-10 text-neutral-600 leading-relaxed">
-      Crafted from richly toned red hardwood, this cutting board is designed to
-      live both as a functional tool and a quiet wall object when not in use.
-    </p>
+          <p className="text-lg px-10 text-neutral-600 leading-relaxed">
+            Crafted from richly coloured mahogany, this cutting board is
+            designed to serve both as a practical kitchen tool and as a
+            sculptural object when hung on the wall.
+          </p>
 
-    <p className="text-lg px-10 text-neutral-600 leading-relaxed mt-8">
-      Its simple form allows it to shift between roles — from surface of
-      preparation to suspended artifact — where material, grain and presence
-      become part of the space itself.
-    </p>
-  </div>
-</section>
+          <p className="text-lg px-10 text-neutral-600 leading-relaxed mt-8">
+            The deep reddish tones and expressive grain of the wood give the
+            simple form a quiet presence, allowing function and material to
+            speak with equal importance.
+          </p>
+        </div>
+      </section>
 
-<section className="py-20 bg-white">
-  <div className="max-w-3xl mx-auto px-6">
-    <img
-      src="/serving-spoons.png"
-      alt="Handcrafted long serving spoons in red hardwood"
-      className="w-full object-contain"
-    />
-  </div>
-</section>
+      <section className="py-20 bg-white">
+        <div className="max-w-3xl mx-auto px-6">
+          <img
+            src="/serving-spoons.png"
+            alt="Handcrafted long serving spoons in red hardwood"
+            className="w-full object-contain"
+          />
+        </div>
+      </section>
 
-<section className="pb-32 pt-0">
-  <div className="max-w-2xl mx-auto text-center">
-    <h2 className="text-5xl font-serif mb-8">Serving Spoons</h2>
+      <section className="pb-32 pt-0">
+        <div className="max-w-2xl mx-auto text-center">
+          <h2 className="text-5xl font-serif mb-8">Serving Spoons</h2>
 
-    <p className="text-lg px-10 text-neutral-600 leading-relaxed">
-      Carved from richly toned red hardwood, these long-handled spoons are
-      designed for serving and gathering — objects that move between hands in
-      shared moments.
-    </p>
+          <p className="text-lg px-10 text-neutral-600 leading-relaxed">
+            Handcrafted from solid mahogany, these long serving spoons highlight
+            the rich colour and smooth texture of the wood through simple,
+            balanced forms.
+          </p>
 
-    <p className="text-lg px-10 text-neutral-600 leading-relaxed mt-8">
-      Their extended form emphasizes gesture and reach, turning the act of
-      serving into a quiet expression of rhythm, care and connection.
-    </p>
-  </div>
-</section>
+          <p className="text-lg px-10 text-neutral-600 leading-relaxed mt-8">
+            Designed to move naturally from hand to hand, they celebrate the
+            warmth of shared meals while allowing the beauty of the material to
+            remain the central focus.
+          </p>
+        </div>
+      </section>
+      <section className="pt-10 pb-40 bg-white">
+        <div className="max-w-2xl mx-auto text-center px-6">
+          <p className="uppercase tracking-[0.3em] text-xs text-neutral-400 mb-6">
+            Philosophy
+          </p>
 
+          <h2 className="text-5xl font-serif mb-8">
+            Crafted to carry stories.
+          </h2>
+
+          <p className="text-lg text-neutral-600 leading-relaxed">
+            Every object in this collection is inspired by traditions where
+            carving, pattern and shared rituals preserve memory across
+            generations. Shaped from natural wood, each piece becomes more than
+            a functional object—it becomes a quiet reminder that craftsmanship
+            can hold both culture and connection.
+          </p>
+        </div>
+      </section>
     </div>
   );
 }

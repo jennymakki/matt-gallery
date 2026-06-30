@@ -20,7 +20,7 @@ export default function artifactsPage() {
       </section>
 
       <section className="py-10 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-5xl mx-auto px-6">
           <img
             src="/chess.png"
             alt="Handcrafted chess set"
@@ -100,6 +100,22 @@ export default function artifactsPage() {
             Simple in expression, it reflects the same philosophy as the objects
             it contains: honest materials, careful proportions and a sense of
             calm utility elevated into ritual.
+          </p>
+        </div>
+      </section>
+
+      <section className="py-32">
+        <div className="max-w-2xl mx-auto text-center px-6">
+          <p className="uppercase tracking-[0.3em] text-xs text-neutral-400 mb-6">
+            Philosophy
+          </p>
+
+          <h2 className="text-5xl font-serif mb-8">Made to last.</h2>
+
+          <p className="text-lg text-neutral-600 leading-relaxed">
+            Every artifact begins with natural materials and careful
+            craftsmanship. Designed to be used, appreciated and passed on, each
+            piece carries the marks of the hands that made it.
           </p>
         </div>
       </section>

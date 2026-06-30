@@ -7,7 +7,7 @@ export default function asiaPage() {
             Asia
           </p>
 
-          <h2 className="text-6xl font-serif mb-10">
+          <h2 className="text-5xl font-serif mb-10">
             Objects shaped by ritual, balance and everyday grace.
           </h2>
 
@@ -114,7 +114,7 @@ export default function asiaPage() {
 
       <section className="pb-32 pt-0">
         <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-5xl font-serif mb-8">Walnut Chopsticks</h2>
+          <h2 className="text-5xl px-4 font-serif mb-8">Walnut Chopsticks</h2>
 
           <p className="text-lg px-10 text-neutral-600 leading-relaxed">
             Crafted from solid walnut, these chopsticks reinterpret a
@@ -126,6 +126,24 @@ export default function asiaPage() {
             Balanced and refined, each pair carries the grain of the wood
             through every movement — turning a simple gesture into a quiet
             ritual.
+          </p>
+        </div>
+      </section>
+      <section className="pt-10 pb-40 bg-white">
+        <div className="max-w-2xl mx-auto text-center px-6">
+          <p className="uppercase tracking-[0.3em] text-xs text-neutral-400 mb-6">
+            Philosophy
+          </p>
+
+          <h2 className="text-5xl font-serif mb-8">
+            Quiet objects, lasting presence.
+          </h2>
+
+          <p className="text-lg text-neutral-600 leading-relaxed">
+            Each piece is shaped through patience, guided by the belief that
+            beauty emerges from simplicity, balance and careful craftsmanship.
+            These objects invite moments of calm,
+            reflection and quiet ritual.
           </p>
         </div>
       </section>

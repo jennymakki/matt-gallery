@@ -7,7 +7,7 @@ export default function vikingPage() {
             Viking
           </p>
 
-          <h2 className="text-6xl font-serif mb-10">
+          <h2 className="text-5xl font-serif mb-10">
             Objects shaped by endurance, craft and origin.
           </h2>
 
@@ -113,7 +113,7 @@ export default function vikingPage() {
 
       <section className="pb-32 pt-0">
         <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-5xl font-serif mb-8">Burnt Wooden Mug</h2>
+          <h2 className="text-5xl px-3 font-serif mb-8">Burnt Wooden Mug</h2>
 
           <p className="text-lg px-10 text-neutral-600 leading-relaxed">
             Crafted from solid wood with a carved handle, this mug features a
@@ -181,6 +181,23 @@ export default function vikingPage() {
             The interplay between smooth bowl and detailed shaft highlights the
             contrast between function and ornament, where everyday use meets
             decorative craftsmanship.
+          </p>
+        </div>
+      </section>
+      <section className="pt-10 pb-40 bg-white">
+        <div className="max-w-2xl mx-auto text-center px-6">
+          <p className="uppercase tracking-[0.3em] text-xs text-neutral-400 mb-6">
+            Philosophy
+          </p>
+
+          <h2 className="text-5xl font-serif mb-8">Rooted in tradition.</h2>
+
+          <p className="text-lg text-neutral-600 leading-relaxed">
+            Inspired by the resourcefulness of early Nordic craftsmanship, these
+            objects are shaped from honest materials with purpose and care.
+            Every carved surface reflects a tradition where beauty was never
+            separate from function, and where enduring forms connected people to
+            the natural world.
           </p>
         </div>
       </section>

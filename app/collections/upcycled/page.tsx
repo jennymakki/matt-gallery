@@ -7,11 +7,11 @@ export default function upcycledPage() {
             Upcycled
           </p>
 
-          <h2 className="text-6xl font-serif mb-10">
+          <h2 className="text-5xl font-serif mb-10">
             Objects reassembled from what remains.
           </h2>
 
-          <p className="text-xl text-neutral-600 leading-relaxed">
+          <p className="text-xl px-3 text-neutral-600 leading-relaxed">
             A collection exploring reuse and transformation — where fragments of
             wood are joined into new forms, revealing beauty through
             recomposition rather than perfection.
@@ -42,6 +42,22 @@ export default function upcycledPage() {
             The fragments are pressed and joined into a unified form, where
             seams and transitions remain visible as part of the object’s
             identity rather than being hidden.
+          </p>
+        </div>
+      </section>
+      <section className="pt-10 pb-40 bg-white">
+        <div className="max-w-2xl mx-auto text-center px-6">
+          <p className="uppercase tracking-[0.3em] text-xs text-neutral-400 mb-6">
+            Philosophy
+          </p>
+
+          <h2 className="text-5xl font-serif mb-8">Nothing is wasted.</h2>
+
+          <p className="text-lg text-neutral-600 leading-relaxed">
+            Every offcut carries its own grain, colour and history. By bringing
+            these fragments together, new objects emerge that celebrate
+            resourcefulness, craftsmanship and the belief that beauty is often
+            found in what remains.
           </p>
         </div>
       </section>
