@@ -16,8 +16,57 @@ export const sans = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Matt's Gallery",
-  description: "Matt Jordon's collections",
+  metadataBase: new URL("https://matt-gallery.vercel.app/"),
+
+  title: {
+    default: "Matt's Gallery",
+    template: "%s | Matt's Gallery",
+  },
+
+  description:
+    "Handcrafted wooden objects inspired by craftsmanship, tradition and nature. Discover unique collections of functional art, jewellery and timeless wooden artifacts.",
+
+  keywords: [
+    "woodworking",
+    "wood art",
+    "handcrafted",
+    "wooden objects",
+    "wood sculpture",
+    "artisan",
+    "gallery",
+    "woodcraft",
+    "Nordic design",
+  ],
+
+  openGraph: {
+    title: "Matt's Gallery",
+    description:
+      "Handcrafted wooden objects inspired by craftsmanship, tradition and nature.",
+    url: "https://matt-gallery.vercel.app/",
+    siteName: "Matt's Gallery",
+    type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Matt's Gallery – Handcrafted Wooden Objects",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Matt's Gallery",
+    description:
+      "Handcrafted wooden objects inspired by craftsmanship, tradition and nature.",
+    images: ["/og-image.png"],
+  },
+
+  icons: {
+    icon: "/hero.png",
+    apple: "/hero.png",
+  },
 };
 
 export default function RootLayout({
@@ -26,11 +75,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html className={`${serif.variable} ${sans.variable}`}>
+    <html lang="en" className={`${serif.variable} ${sans.variable}`}>
       <body className="min-h-full flex flex-col">
         <Navbar />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );
