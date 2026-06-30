@@ -103,7 +103,7 @@ export default function asiaPage() {
       </section>
 
       <section className="py-10 bg-white">
-        <div className="max-w-4xl mx-auto px-6">
+        <div className="max-w-2xl mx-auto px-6">
           <img
             src="/chopsticks.png"
             alt="Handcrafted walnut chopsticks"
